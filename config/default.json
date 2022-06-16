@@ -1,4 +1,4 @@
 {
     "mongoURI" : "mongodb+srv://kashyaprohit:kashyap123@cluster0.dcoqp.mongodb.net/Adress-Book?retryWrites=true&w=majority",
-    "jwtSecret" : "secret"
+    "jwtSecret" : "eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ"
 }
