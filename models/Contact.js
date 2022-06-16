@@ -13,6 +13,7 @@ const ContactSchema = mongoose.Schema({
 	phone: {
 		type: String,
 		required:true,
+		unique:true
 	},
 	
 	date: {
