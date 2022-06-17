@@ -16,10 +16,6 @@ const ContactSchema = mongoose.Schema({
 		unique:true
 	},
 	
-	date: {
-		type: Date,
-		default: Date.now,
-	},
 });
 
 module.exports = mongoose.model("contact", ContactSchema);

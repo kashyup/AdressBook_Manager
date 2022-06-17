@@ -16,7 +16,7 @@ const ContactForm = () => {
 		if (current !== null) {
 			setContact(current);
 		} else {
-			setContact({ name: "", email: "", phone: "", type: "personal" });
+			setContact({ name: "", phone: "" });
 		}
 	}, [contactContext, current]);
 
